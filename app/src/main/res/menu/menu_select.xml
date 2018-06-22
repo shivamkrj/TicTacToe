@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/reset"
+        android:title="Reset"
+        android:icon="@drawable/change"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Size"
+        android:id="@+id/size"
+        >
+        <menu
+            android:title="size">
+            <item
+                android:id="@+id/three"
+                android:title="3 x 3"
+                android:icon="@drawable/change"/>
+            <item
+                android:title="4 x 4"
+                android:id="@+id/four"/>
+            <item
+                android:title="5 x 5"
+                android:id="@+id/five"/>
+        </menu>
+    </item>
+</menu>
